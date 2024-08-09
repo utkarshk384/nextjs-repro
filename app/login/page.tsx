@@ -1,18 +1,9 @@
+import React from "react";
 
-import React from "react"
+const TestComponent: React.FC = (props) => {
+  const {} = props;
 
-type Props = {
-    children?: React.ReactNode
-}
+  return <div>USer is logged in</div>;
+};
 
-const TestComponent: React.FC<Props> = (props) => {
-    const {} = props
-    
-    return (
-        <div>
-            USer is logged in
-        </div>
-    )
-}
-
-export default TestComponent
+export default TestComponent;
